@@ -10,7 +10,7 @@ White: #FFF
 body{
     margin:0px;
     padding:0px;
-    font-family: circular;
+    
 }
 
 /* ------ NavBar ------ */
@@ -30,6 +30,7 @@ body{
     background-size: 191px 57px;
     background-position-x: 73px;
     background-position-y: 21px;   
+    font-family: circular;
 }
 
 .container img{
@@ -82,6 +83,7 @@ main{
     background-repeat: no-repeat;
     background-size: 100% 850px;
     color:#FFF;
+    font-family: circular;
 }
 
 .section1 h1{
@@ -89,19 +91,23 @@ main{
 }
 .section1 p{
     font-size: 20px;
-    width:430px;
+    width:480px;
     margin-top: -20px;
 }
 
 .section2{
     width:100%;
     height:350px;
+    font-family: circular;
 }
 
 .section2 h1{
     align-self:center;
     margin-left: 42%;
     margin-bottom:60px;
+    text-decoration: underline;
+    text-decoration-color:#00B172;
+    
 }
 
 .containerSection2{
@@ -119,9 +125,15 @@ main{
 }
 
 .section2 img{
-    width:100px;
+    width:131px;
+    height: 100px;
     text-align: center;
 }
+
+.section2 p{
+    width: 151px;
+}
+
 
 .section3{
     border:1px solid black;
